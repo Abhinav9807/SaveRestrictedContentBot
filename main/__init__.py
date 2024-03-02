@@ -13,10 +13,10 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 
 # variables
 API_ID = 22619164
-API_HASH = 0c1dba6801e2fb8c47ca89d150e2879f
-BOT_TOKEN = 6738441525:AAES7BC8c7gtg4jcY1psSbvJjccoG-3gfyY
+API_HASH = "0c1dba6801e2fb8c47ca89d150e2879f"
+BOT_TOKEN = "6738441525:AAES7BC8c7gtg4jcY1psSbvJjccoG-3gfyY"
 SESSION = BQFZJBwAbt_ZHLcqaxUt8P20AllBaehHwMIdsOAq5N1XBTouqvabufE-DcBPuk2KoggAryUT3xz7gKWurs2K4LyBXk5SgRGjqYTa6hgk635t9dIQJ651W5BgrvmQiFeU-FS9PVEeAtXb4_0jgkJr1UYUV9v5LgutLdmJNnkrhSiADp2p4Ihv-USZP-pyQxxRz4xtWInT3hEXVBDIrQRbdYz63BEvnkEroi7V7RF1FwsT8odWbTYa4-T_3I5SWB3xSZkIjYNcnoEu6T2yDFSK9qnWGrfnkro2mofytgRsTg7wwq4GW4LLPtozgUIGkVbh0msLOseL61HDhTzKh8ugHik-zEFKzQAAAAGYNL3-AA
-FORCESUB = @savescrb
+FORCESUB = "savescrb"
 AUTH = 6848560638
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
